@@ -1,60 +1,21 @@
 .App {
-  text-align: center;
+  /*text-align: middle;*/
+  text-align: left;
   font-family: Poppins, sans-serif;
   max-width: 700px;
   margin: 5rem auto;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-/* Basic editor styles */
-.text-editor{
+.text-editor {
   border-radius: 5px;
   border: 1px solid gray;
 }
+
 .menu-bar {
   padding-bottom: 5px ;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-button.is-active{
-  background: rgb(185, 183, 183);
-  padding: 2px 3px;
-  border-radius: 2px;
 }
 
 .menu-bar button {
@@ -68,20 +29,29 @@ button.is-active{
   cursor: pointer;
 }
 
-.ProseMirror{
+/* Just re-arranged the order? I guess order is important?*/
+button.is-active {
+  background: rgb(185, 183, 183);
+  padding: 2px 3px;
+  border-radius: 2px;
+}
+
+.ProseMirror {
   padding: 10px;
   border-top: 1px solid gray;
   background: white;
   border-radius: 0 0 5px 5px;
   min-height: 100px;
 }
-.ProseMirror> * + * {
-    margin-top: 0.75em;
-  }
+
+.ProseMirror > * + * {
+  margin-top: 0.75em;
+}
+
 .ProseMirror ul,
-.ProseMirror ol{
-    padding: 0 1rem;
-  }
+.ProseMirror ol {
+  padding: 0 1rem;
+}
 
 .ProseMirror h1,
 .ProseMirror h2,
@@ -89,41 +59,42 @@ button.is-active{
 .ProseMirror h4,
 .ProseMirror h5,
 .ProseMirror h6 {
-    line-height: 1.1;
-  }
+  line-height: 1.1;
+}
 
 .ProseMirror code {
-    background-color: #cfcfcf;
-    color: #616161;
-  }
+  background-color: #cfcfcf;
+  color: #616161;
+}
 
 .ProseMirror pre {
-    background: #0D0D0D;
-    color: #FFF;
-    font-family: 'JetBrainsMono', monospace;
-    padding: 0.75rem 1rem;
-    border-radius: 0.5rem;
-  }
+  background: #0D0D0D;
+  color: #FFF;
+  font-family: 'JetBrainsMono', monospace;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+}
+
 .ProseMirror pre code {
-      color: inherit;
-      padding: 0;
-      background: none;
-      font-size: 0.8rem;
-    }
+  color: inherit;
+  padding: 0;
+  background: none;
+  font-size: 0.8rem;
+}
   
 
 .ProseMirror img {
-    max-width: 100%;
-    height: auto;
-  }
+  max-width: 100%;
+  height: auto;
+}
 
 .ProseMirror blockquote {
-    padding-left: 1rem;
-    border-left: 2px solid #9c9c9c;
-  }
+  padding-left: 1rem;
+  border-left: 2px solid #9c9c9c;
+}
 
 .ProseMirror hr {
-    border: none;
-    border-top: 2px solid #9c9c9c;
-    margin: 2rem 0;
-  }
+  border: none;
+  border-top: 2px solid #9c9c9c;
+  margin: 2rem 0;
+}
